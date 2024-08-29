@@ -1,49 +1,28 @@
-.. These are examples of badges you might want to add to your README:
-   please update the URLs accordingly
-
-    .. image:: https://api.cirrus-ci.com/github/<USER>/GestorMaterias.svg?branch=main
-        :alt: Built Status
-        :target: https://cirrus-ci.com/github/<USER>/GestorMaterias
-    .. image:: https://readthedocs.org/projects/GestorMaterias/badge/?version=latest
-        :alt: ReadTheDocs
-        :target: https://GestorMaterias.readthedocs.io/en/stable/
-    .. image:: https://img.shields.io/coveralls/github/<USER>/GestorMaterias/main.svg
-        :alt: Coveralls
-        :target: https://coveralls.io/r/<USER>/GestorMaterias
-    .. image:: https://img.shields.io/pypi/v/GestorMaterias.svg
-        :alt: PyPI-Server
-        :target: https://pypi.org/project/GestorMaterias/
-    .. image:: https://img.shields.io/conda/vn/conda-forge/GestorMaterias.svg
-        :alt: Conda-Forge
-        :target: https://anaconda.org/conda-forge/GestorMaterias
-    .. image:: https://pepy.tech/badge/GestorMaterias/month
-        :alt: Monthly Downloads
-        :target: https://pepy.tech/project/GestorMaterias
-    .. image:: https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Twitter
-        :alt: Twitter
-        :target: https://twitter.com/GestorMaterias
-
-.. image:: https://img.shields.io/badge/-PyScaffold-005CA0?logo=pyscaffold
-    :alt: Project generated with PyScaffold
-    :target: https://pyscaffold.org/
-
-|
-
-==============
 GestorMaterias
 ==============
 
+GestorMaterias es una aplicación de escritorio desarrollada en Python usando PyQt5. 
+La aplicación permite gestionar el registro de materias vistas en un semestre, mostrando 
+información sobre el nombre de la materia, semestre, profesor y nota obtenida.
 
-    Add a short description here!
+Características
+---------------
 
+- Visualización de materias registradas.
+- Navegación entre las materias con botones de avanzar y retroceder.
+- Interfaz gráfica intuitiva utilizando PyQt5.
 
-A longer description of your project goes here...
+Requisitos
+----------
 
+- Python 3.7 o superior
+- PyQt5
+- pre-commit (opcional)
 
-.. _pyscaffold-notes:
+Instalación
+-----------
 
-Note
-====
+1. Clona este repositorio::
 
-This project has been set up using PyScaffold 4.5. For details and usage
-information on PyScaffold see https://pyscaffold.org/.
+   git clone git@github.com:JUANES545/GestorMaterias.git
+
